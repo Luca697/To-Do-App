@@ -1,0 +1,25 @@
+{
+    "name": "todo-app",
+    "version": "1.0.0",
+    "description": "A simple To-Do app using Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-builder"
+    },
+    "devDependencies": {
+      "electron": "^latest-version",
+      "electron-builder": "^latest-version"
+    },
+    "build": {
+      "appId": "com.todoapp",
+      "productName": "TodoApp",
+      "win": {
+        "icon": "icon.jpg"
+      },
+      "mac": {
+        "icon": "icon.jpg"
+      }
+    }
+  }
+  
